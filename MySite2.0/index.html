@@ -2,7 +2,7 @@
 <!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
 <!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
 <!--[if (gte IE 8)|!(IE)]><!-->
-<html class="no-js" lang="en">
+<html class="no-js" lang="en" ng-app="myapp">
 <!--<![endif]-->
 
 <head>
@@ -16,19 +16,17 @@
     <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/media-queries.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" type="text/css" href="css/ngProgress.css">
+    <link rel="stylesheet" type="text/css" href="css/nprogress.css">
     <!-- Js -->
-    <script src="js/modernizr.js"></script>
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.js" integrity="sha256-OxCsGH/j2k+Ub6Lo55TiYwZ94bv9Jmgvbn7gDahtiIs=" crossorigin="anonymous"></script>
-
-    <script type="text/javascript" src="js/components/ngprogress.js"></script>
-
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="js/plugins/angular.js"></script>
+    <script type="text/javascript" src="js/plugins/nprogress.js"></script>
+    <script type="text/javascript" src="js/custom/loader.js"></script>
     <!-- Favicon -->
     <link rel="shortcut icon" href="favicon.png">
 </head>
 
-<body>
+<body id="BodyContainer" ng-controller="MainController">
     <!-- Header -->
     <header id="home">
         <nav id="nav-wrap">
@@ -598,24 +596,22 @@
             <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
         </div>
     </footer>
-    Footer End
-    Js
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script>
-    window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')
-    </script>
+    <!--  Footer End  Js -->
+    <script src="js/modernizr.js"></script>
     <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
     <script src="js/jquery.flexslider.js"></script>
     <script src="js/waypoints.js"></script>
     <script src="js/jquery.fittext.js"></script>
     <script src="js/magnific-popup.js"></script>
     <script src="js/init.js"></script>
-      <!-- angular -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular-animate.js" integrity="sha256-59KcG0bz2jTeDCBcEBD4bK+iHY0xYEhi1qsASkIysP0=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular-loader.min.js" integrity="sha256-BUwTghTvQ5rLadgw6K6YGCugDIj/ous5fT5slXYjSF0=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular-route.js" integrity="sha256-SAQ4JgNuN5J22HeNmrNXLyvqEh6gUoWsetBCX8EUnZQ=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular-sanitize.js" integrity="sha256-R0eLkzugbc3VqsIrgXj2K3HiZ9/DiO8h5RbchyQPDC4=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular-touch.js" integrity="sha256-WGlpLAyMfbnJ7oCAa7kMxDX5L1/EROdKeHTXlOXtjP4=" crossorigin="anonymous"></script>
+    <!--angular-->
+    <script type="text/javascript" src="js/plugins/angular-animate.js"></script>
+    <script type="text/javascript" src="js/plugins/angular-loader.min.js"></script>
+    <script type="text/javascript" src="js/plugins/angular-route.js"></script>
+    <script type="text/javascript" src="js/plugins/angular-touch.js"></script>
+    <!-- angular App -->
+    <script type="text/javascript" src="js/app/app.js"></script>
+    <script type="text/javascript" src="js/app/controller/MainController.js"></script>
 </body>
 
 </html>
