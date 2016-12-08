@@ -7,3 +7,12 @@
 	color:#66D347;
 	font-weight: bold;	
 }
+
+.mytags{
+	/* margin-top: 10px; */
+	padding-top: 10px;
+}
+.mytags > span {
+padding: 10px 2em 5px 2em;
+font-size: 16px;
+}
