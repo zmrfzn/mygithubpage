@@ -1,7 +1,7 @@
 $(window).load(function() {
     setTimeout(function() {
     NProgress.done();
-    }, 3000);
+    }, 50);
 });
 
 $(document).ready(function() {
