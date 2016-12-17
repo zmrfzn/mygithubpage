@@ -38,7 +38,7 @@
                 <li><a class="smoothscroll" href="#about">About</a></li>
                 <li><a class="smoothscroll" href="#resume">Resume</a></li>
                 <li><a class="smoothscroll" href="#projects">Works</a></li>
-                <li><a class="smoothscroll" href="#testimonials">Testimonials</a></li>
+                <!-- <li><a class="smoothscroll" href="#testimonials">Testimonials</a></li> -->
                 <li><a class="smoothscroll" href="#contact">Contact</a></li>
             </ul>
             <!-- end #nav -->
@@ -177,16 +177,16 @@
                 <h1><span>Skills</span></h1>
             </div>
             <div class="nine columns main-col">
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+                <p>My skillset includes the following.
                 </p>
                 <div class="bars">
                     <ul class="skills">
-                        <li><span class="bar-expand photoshop"></span><em>Photoshop</em></li>
-                        <li><span class="bar-expand illustrator"></span><em>Illustrator</em></li>
-                        <li><span class="bar-expand wordpress"></span><em>Wordpress</em></li>
-                        <li><span class="bar-expand css"></span><em>CSS</em></li>
-                        <li><span class="bar-expand html5"></span><em>HTML5</em></li>
-                        <li><span class="bar-expand jquery"></span><em>jQuery</em></li>
+                        <li><span class="bar-expand python"></span><em>Python 2.7</em></li>
+                        <li><span class="bar-expand php"></span><em>PHP</em></li>
+                        <li><span class="bar-expand webdesign"></span><em>Webdesign <small>HTML5/CSS3/Bootstrap3</small></em></li>
+                        <li><span class="bar-expand jsjq"></span><em>JavaScript / JQuery</em></li>
+                        <li><span class="bar-expand asp"></span><em>ASP.NET C#</em></li>
+                        <li><span class="bar-expand Angular"></span><em>AngularJs <small>1.5</small></em></li>
                     </ul>
                 </div>
                 <!-- end skill-bars -->
@@ -207,7 +207,7 @@
                     <div class="columns portfolio-item">
                         <div class="item-wrap">
                             <a href="#modal-01" title="">
-                                <img alt="" src="files/priceminds2.png">
+                                <img alt="" src="files/priceminds4.jpg">
                                 <div class="overlay">
                                     <div class="portfolio-item-meta">
                                         <h5>Priceminds</h5>
@@ -252,11 +252,11 @@
                     <div class="columns portfolio-item">
                         <div class="item-wrap">
                             <a href="#modal-04" title="">
-                                <img alt="" src="images/portfolio/into-the-light.jpg">
+                                <img alt="" src="files/comingsoon.jpg">
                                 <div class="overlay">
                                     <div class="portfolio-item-meta">
-                                        <h5>Into The Light</h5>
-                                        <p>Photography</p>
+                                        <h5>Find Gender with Name</h5>
+                                        <p>Coming Soon</p>
                                     </div>
                                 </div>
                                 <div class="link-icon"><i class="icon-plus"></i></div>
@@ -264,7 +264,7 @@
                         </div>
                     </div>
                     <!-- item end -->
-                    <div class="columns portfolio-item">
+                    <div class="columns portfolio-item" ng-if="false">
                         <div class="item-wrap">
                             <a href="#modal-05" title="">
                                 <img alt="" src="images/portfolio/farmerboy.jpg">
@@ -279,7 +279,7 @@
                         </div>
                     </div>
                     <!-- item end -->
-                    <div class="columns portfolio-item">
+                    <div class="columns portfolio-item" ng-if="false">
                         <div class="item-wrap">
                             <a href="#modal-06" title="">
                                 <img alt="" src="images/portfolio/girl.jpg">
@@ -294,7 +294,7 @@
                         </div>
                     </div>
                     <!-- item end -->
-                    <div class="columns portfolio-item">
+                    <div class="columns portfolio-item" ng-if="false">
                         <div class="item-wrap">
                             <a href="#modal-07" title="">
                                 <img alt="" src="images/portfolio/origami.jpg">
@@ -309,7 +309,7 @@
                         </div>
                     </div>
                     <!-- item end -->
-                    <div class="columns portfolio-item">
+                    <div class="columns portfolio-item" ng-if="false">
                         <div class="item-wrap">
                             <a href="#modal-08" title="">
                                 <img alt="" src="images/portfolio/retrocam.jpg">
@@ -369,14 +369,14 @@
             </div>
             <!-- modal-03 End -->
             <div id="modal-04" class="popup-modal mfp-hide">
-                <img class="scale-with-grid" src="images/portfolio/modals/m-intothelight.jpg" alt="" />
+                <img class="scale-with-grid" src="files/gender.jpg" alt="" />
                 <div class="description-box">
-                    <h4>Into the Light</h4>
-                    <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-                    <span class="categories"><i class="fa fa-tag"></i>Photography</span>
+                    <h4>Find Gender with Name</h4>
+                    <p>Coming Soon</p>
+                    <span class="categories"><i class="fa fa-tag"></i>Python , Intelligence</span>
                 </div>
                 <div class="link-box">
-                    <a href="http://www.behance.net">Details</a>
+                    <a href="#">Details</a>
                     <a class="popup-modal-dismiss">Close</a>
                 </div>
             </div>
@@ -439,7 +439,7 @@
     <!-- Portfolio Section End-->
     <!-- Testimonials Section
    ================================================== -->
-   <!--  <section id="testimonials">
+    <!--  <section id="testimonials">
        <div class="text-container">
            <div class="row">
                <div class="two columns header-col">
@@ -483,7 +483,9 @@
                 <h1><span>Get In Touch.</span></h1>
             </div>
             <div class="ten columns">
-                <p class="lead">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+                <p class="lead">Contact me for any assistance needed for you in your project or if you want to hire me to build your own personal or business website. Drop a Mail i would revert back ASAP.</p>
+                <p>
+                    If you have any feedback or suggestion on my projects, would be glad to hear from you.
                 </p>
             </div>
         </div>
@@ -506,7 +508,7 @@
                         </div>
                         <div>
                             <label for="contactMessage">Message <span class="required">*</span></label>
-                            <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+                            <textarea cols="50" rows="10" id="contactMessage" name="contactMessage"></textarea>
                         </div>
                         <div>
                             <button class="submit">Submit</button>
@@ -529,13 +531,13 @@
                 <div class="widget widget_contact">
                     <h4>Address and Phone</h4>
                     <p class="address">
-                        Jonathan Doe
-                        <br> 1600 Amphitheatre Parkway
-                        <br> Mountain View, CA 94043 US
+                        Zameer Fouzan
+                        <br>Bangalore, Karnataka, India
                         <br>
-                        <span>(123) 456-7890</span>
+                        <span><i class="fa fa-phone"></i> Drop a mail to get in touch</span>
                     </p>
                 </div>
+                <!-- twitter/news/updates placeholder
                 <div class="widget widget_tweets">
                     <h4 class="widget-title">Latest Tweets</h4>
                     <ul id="twitter">
@@ -556,7 +558,7 @@
                             <b><a href="#">3 Days Ago</a></b>
                         </li>
                     </ul>
-                </div>
+                </div> -->
             </aside>
         </div>
     </section>
@@ -567,16 +569,15 @@
         <div class="row">
             <div class="twelve columns">
                 <ul class="social-links">
-                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                    <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                    <li><a href="https://www.facebook.com/zameer.fouzan" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://twitter.com/zmrfzn" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="https://google.com/+zameerfouzan" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a href="https://in.linkedin.com/in/zmrfzn" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="https://angel.co/zameer-fouzan" target="_blank"><i class="fa fa-angellist"></i></a></li>
+                    <li><a href="https://github.com/zmrfzn" target="_blank"><i class="fa fa-github"></i></a></li>
                 </ul>
                 <ul class="copyright">
-                    <li>&copy; Copyright 2014 CeeVee</li>
+                    <li>&copy; Copyright <a href="http://zameerfouzan.me" title="">Zameer Fouzan</a></li>
                     <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>
                 </ul>
             </div>
