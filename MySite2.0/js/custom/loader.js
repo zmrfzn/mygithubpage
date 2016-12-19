@@ -7,6 +7,6 @@ $(window).load(function() {
 
 $(document).ready(function() {
     NProgress.start();
-    NProgress.set(0.1);
+    NProgress.set(0.3);
     /*NProgress.inc();*/
 });
