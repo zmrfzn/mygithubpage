@@ -19,10 +19,10 @@
     <link rel="stylesheet" type="text/css" href="css/nprogress.css">
     <link rel="stylesheet" type="text/css" href="css/custom.css">
     <!-- Js -->
-    <script type="text/javascript" data-cfasync="true" src="js/jquery-1.10.2.min.js"></script>
-    <script type="text/javascript" data-cfasync="true" src="js/plugins/angular.js"></script>
-    <script type="text/javascript" data-cfasync="true" src="js/plugins/nprogress.js"></script>
-    <script type="text/javascript" data-cfasync="true" src="js/custom/loader.js"></script>
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="js/plugins/angular.js"></script>
+    <script type="text/javascript" src="js/plugins/nprogress.js"></script>
+    <script type="text/javascript" src="js/custom/loader.js"></script>
     <!-- Favicon -->
     <link rel="shortcut icon" href="favicon.png">
     <!-- google analytics-->
@@ -137,6 +137,9 @@
                         <img class="univ-logo img-responsive img-rounded" src="files/vtu_logo.png" alt="Bangalore University Logo">
                         <p class="info">Visvesvaraya Technological University
                             <span>&bull;</span> <em class="date">August 2016</em></p>
+                        <!--  <p>
+                           Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede mollis pretium.
+                       </p> -->
                     </div>
                 </div>
                 <hr/>
@@ -147,6 +150,9 @@
                         <img class="univ-logo img-responsive img-rounded" src="files/Bu-logo.jpg" alt="Bangalore University Logo">
                         <p class="info">Bangalore University
                             <span>&bull;</span> <em class="date">November 2013</em></p>
+                        <!-- <p>
+                            This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat
+                        </p> -->
                     </div>
                 </div>
             </div>
@@ -277,6 +283,66 @@
                         </div>
                     </div>
                     <!-- item end -->
+                    <div class="columns portfolio-item" ng-if="false">
+                        <div class="item-wrap">
+                            <a href="#modal-05" title="">
+                                <img alt="" src="images/portfolio/farmerboy.jpg">
+                                <div class="overlay">
+                                    <div class="portfolio-item-meta">
+                                        <h5>Farmer Boy</h5>
+                                        <p>Branding</p>
+                                    </div>
+                                </div>
+                                <div class="link-icon"><i class="icon-plus"></i></div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- item end -->
+                    <div class="columns portfolio-item" ng-if="false">
+                        <div class="item-wrap">
+                            <a href="#modal-06" title="">
+                                <img alt="" src="images/portfolio/girl.jpg">
+                                <div class="overlay">
+                                    <div class="portfolio-item-meta">
+                                        <h5>Girl</h5>
+                                        <p>Photography</p>
+                                    </div>
+                                </div>
+                                <div class="link-icon"><i class="icon-plus"></i></div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- item end -->
+                    <div class="columns portfolio-item" ng-if="false">
+                        <div class="item-wrap">
+                            <a href="#modal-07" title="">
+                                <img alt="" src="images/portfolio/origami.jpg">
+                                <div class="overlay">
+                                    <div class="portfolio-item-meta">
+                                        <h5>Origami</h5>
+                                        <p>Illustrration</p>
+                                    </div>
+                                </div>
+                                <div class="link-icon"><i class="icon-plus"></i></div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- item end -->
+                    <div class="columns portfolio-item" ng-if="false">
+                        <div class="item-wrap">
+                            <a href="#modal-08" title="">
+                                <img alt="" src="images/portfolio/retrocam.jpg">
+                                <div class="overlay">
+                                    <div class="portfolio-item-meta">
+                                        <h5>Retrocam</h5>
+                                        <p>Web Development</p>
+                                    </div>
+                                </div>
+                                <div class="link-icon"><i class="icon-plus"></i></div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- item end -->
                 </div>
                 <!-- portfolio-wrapper end -->
             </div>
@@ -334,10 +400,100 @@
                 </div>
             </div>
             <!-- modal-04 End -->
+            <div id="modal-05" class="popup-modal mfp-hide">
+                <img class="scale-with-grid" src="images/portfolio/modals/m-farmerboy.jpg" alt="" />
+                <div class="description-box">
+                    <h4>Farmer Boy</h4>
+                    <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+                    <span class="categories"><i class="fa fa-tag"></i>Branding, Webdesign</span>
+                </div>
+                <div class="link-box">
+                    <a href="http://www.behance.net">Details</a>
+                    <a class="popup-modal-dismiss">Close</a>
+                </div>
+            </div>
+            <!-- modal-05 End -->
+            <div id="modal-06" class="popup-modal mfp-hide">
+                <img class="scale-with-grid" src="images/portfolio/modals/m-girl.jpg" alt="" />
+                <div class="description-box">
+                    <h4>Girl</h4>
+                    <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+                    <span class="categories"><i class="fa fa-tag"></i>Photography</span>
+                </div>
+                <div class="link-box">
+                    <a href="http://www.behance.net">Details</a>
+                    <a class="popup-modal-dismiss">Close</a>
+                </div>
+            </div>
+            <!-- modal-06 End -->
+            <div id="modal-07" class="popup-modal mfp-hide">
+                <img class="scale-with-grid" src="images/portfolio/modals/m-origami.jpg" alt="" />
+                <div class="description-box">
+                    <h4>Origami</h4>
+                    <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+                    <span class="categories"><i class="fa fa-tag"></i>Branding, Illustration</span>
+                </div>
+                <div class="link-box">
+                    <a href="http://www.behance.net">Details</a>
+                    <a class="popup-modal-dismiss">Close</a>
+                </div>
+            </div>
+            <!-- modal-07 End -->
+            <div id="modal-08" class="popup-modal mfp-hide">
+                <img class="scale-with-grid" src="images/portfolio/modals/m-retrocam.jpg" alt="" />
+                <div class="description-box">
+                    <h4>Retrocam</h4>
+                    <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+                    <span class="categories"><i class="fa fa-tag"></i>Webdesign, Photography</span>
+                </div>
+                <div class="link-box">
+                    <a href="http://www.behance.net">Details</a>
+                    <a class="popup-modal-dismiss">Close</a>
+                </div>
+            </div>
+            <!-- modal-01 End -->
         </div>
         <!-- row End -->
     </section>
     <!-- Portfolio Section End-->
+    <!-- Testimonials Section
+   ================================================== -->
+    <!--  <section id="testimonials">
+       <div class="text-container">
+           <div class="row">
+               <div class="two columns header-col">
+                   <h1><span>Client Testimonials</span></h1>
+               </div>
+               <div class="ten columns flex-container">
+                   <div class="flexslider">
+                       <ul class="slides">
+                           <li>
+                               <blockquote>
+                                   <p>Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.
+                                   </p>
+                                   <cite>Steve Jobs</cite>
+                               </blockquote>
+                           </li>
+                           slide ends
+                           <li>
+                               <blockquote>
+                                   <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
+                                   </p>
+                                   <cite>Mr. Adobe</cite>
+                               </blockquote>
+                           </li>
+                           slide ends
+                       </ul>
+                   </div>
+                   div.flexslider ends
+               </div>
+               div.flex-container ends
+           </div>
+           row ends
+       </div>
+       text-container ends
+   </section> -->
+    <!-- Testimonials Section End-->
     <!-- Contact Section
    ================================================== -->
     <section id="contact">
@@ -400,26 +556,22 @@
                         <span><i class="fa fa-phone"></i> Drop a mail to get in touch</span>
                     </p>
                 </div>
-                <!-- twitter/news/updates placeholder 
+                <!-- twitter/news/updates placeholder
                 <div class="widget widget_tweets">
                     <h4 class="widget-title">Latest Tweets</h4>
                     <ul id="twitter">
                         <li>
                             <span>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. 
+                        This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+                        Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum
                         <a href="#">http://t.co/CGIrdxIlI3</a>
                         </span>
                             <b><a href="#">2 Days Ago</a></b>
                         </li>
                         <li>
                             <span>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. 
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+                        eaque ipsa quae ab illo inventore veritatis et quasi
                         <a href="#">http://t.co/CGIrdxIlI3</a>
                         </span>
                             <b><a href="#">3 Days Ago</a></b>
