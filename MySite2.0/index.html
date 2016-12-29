@@ -20,7 +20,7 @@
     <link rel="stylesheet" type="text/css" href="css/custom.css">
     <!-- Js -->
     <script type="text/javascript" data-cfasync="true" src="js/jquery-1.10.2.min.js"></script>
-    <script type="text/javascript" data-cfasync="true" src="js/plugins/angular.js"></script>
+    <script type="text/javascript" data-cfasync="false" src="js/plugins/angular.js"></script>
     <script type="text/javascript" data-cfasync="true" src="js/plugins/nprogress.js"></script>
     <script type="text/javascript" data-cfasync="true" src="js/custom/loader.js"></script>
     <!-- Favicon -->
@@ -463,11 +463,12 @@
     <script type="text/javascript" src="js/plugins/angular-route.js"></script>
     <script type="text/javascript" src="js/plugins/angular-touch.js"></script>
     <!-- angular App -->
-    <script type="text/javascript" src="js/app/app.js"></script>
+    <script type="text/javascript" data-cfasync="false" src="js/plugins/angular.min.js"></script>
+    <script type="text/javascript" data-cfasync="false" src="js/app/app.js"></script>
     <!--Controller-->
-    <script type="text/javascript" src="js/app/controller/MainController.js"></script>
+    <script type="text/javascript" data-cfasync="false" src="js/app/controller/MainController.js"></script>
     <!--Services-->
-    <script type="text/javascript" src="js/app/services/newsFeedService.js"></script>
+    <script type="text/javascript" data-cfasync="false" src="js/app/services/newsFeedService.js"></script>
 </body>
 
 </html>
