@@ -2,7 +2,7 @@
 <!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
 <!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
 <!--[if (gte IE 8)|!(IE)]><!-->
-<html class="no-js" lang="en" ng-app="myapp">
+<html class="no-js" lang="en">
 <!--<![endif]-->
 
 <head>
@@ -45,7 +45,7 @@
     <!-- google analytics-->
 </head>
 
-<body id="BodyContainer" ng-controller="MainController">
+<body id="BodyContainer" ng-app="myapp" ng-controller="MainController">
     <!-- Header -->
     <header id="home">
         <nav id="nav-wrap">
@@ -400,32 +400,30 @@
                         <span><i class="fa fa-phone"></i> Drop a mail to get in touch</span>
                     </p>
                 </div>
-                <!-- twitter/news/updates placeholder 
                 <div class="widget widget_tweets">
-                    <h4 class="widget-title">Latest Tweets</h4>
+                    <h4 class="widget-title">TechCrunch Latest News</h4>
                     <ul id="twitter">
-                        <li>
-                            <span>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. 
-                        <a href="#">http://t.co/CGIrdxIlI3</a>
-                        </span>
-                            <b><a href="#">2 Days Ago</a></b>
+                        <li ng-repeat="fd in feeds | limitTo:2">
+                            <span>{{fd.title}}</span>
+                            <div class="frame feeds">
+                            <a ng-href="{{fd.url}}" target="_blank">
+                            <img class="frame feeds" ng-src="{{fd.urlToImage}}"></div>
+                                <span>→ Read Post</span></a>
+                            <span><small>{{fd.publishedAt | date}}</small></span>
+                            <hr>
                         </li>
-                        <li>
+                        <!-- <li>
                             <span>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. 
+                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                        consequat. 
                         <a href="#">http://t.co/CGIrdxIlI3</a>
                         </span>
                             <b><a href="#">3 Days Ago</a></b>
-                        </li>
+                        </li> -->
                     </ul>
-                </div> -->
+                </div>
             </aside>
         </div>
     </section>
@@ -466,7 +464,10 @@ consequat.
     <script type="text/javascript" src="js/plugins/angular-touch.js"></script>
     <!-- angular App -->
     <script type="text/javascript" src="js/app/app.js"></script>
+    <!--Controller-->
     <script type="text/javascript" src="js/app/controller/MainController.js"></script>
+    <!--Services-->
+    <script type="text/javascript" src="js/app/services/newsFeedService.js"></script>
 </body>
 
 </html>
